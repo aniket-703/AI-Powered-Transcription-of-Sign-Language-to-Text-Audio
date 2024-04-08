@@ -5,7 +5,7 @@ DATA_DIR = 'D:/sign-language-detector-python-master/data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-number_of_classes = 37
+number_of_classes = 37 #0-9,A-Z,Next
 dataset_size = 200
 
 cap = cv2.VideoCapture(0)
