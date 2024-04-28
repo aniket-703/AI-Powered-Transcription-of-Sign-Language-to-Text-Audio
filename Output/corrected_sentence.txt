@@ -1,1 +1,1 @@
-python -u designing-language-detector-python-master\test_app_nomark.py"
+Image ionization

@@ -1,7 +1,7 @@
 import os
 import cv2
 
-DATA_DIR = 'D:/sign-language-detector-python-master/data'
+DATA_DIR = 'D:/sign-language-detector-python-master/Data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 

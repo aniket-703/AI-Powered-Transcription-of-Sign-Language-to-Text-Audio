@@ -10,7 +10,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, max_num_hands=2, min_detection_confidence=0.3)
 
-DATA_DIR = 'D:/sign-language-detector-python-master/data'
+DATA_DIR = 'D:/sign-language-detector-python-master/Data'
 data = []
 labels = []
 for dir_ in os.listdir(DATA_DIR):
