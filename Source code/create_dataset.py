@@ -11,7 +11,7 @@ mp_drawing_styles = mp.solutions.drawing_styles
 hands = mp_hands.Hands(static_image_mode=True, max_num_hands=2, min_detection_confidence=0.3, min_tracking_confidence=0.3)
 
 # Define the directory containing the image data
-DATA_DIR = 'D:/sign-language-detector-python-master/Data'
+DATA_DIR = 'D:/Sign Language Convertor/Data'
 
 # Initialize lists to store data and labels
 data = []
@@ -60,7 +60,7 @@ for dir_ in os.listdir(DATA_DIR):
 
 # Save the data and labels to a pickle file
 try:
-    with open('D:/sign-language-detector-python-master/Model/data10.pickle', 'wb') as f:
+    with open('D:/Sign Language Convertor/Model/data10.pickle', 'wb') as f:
         pickle.dump({'data': data, 'labels': labels}, f)
     print("Data saved successfully.")
 except Exception as e:

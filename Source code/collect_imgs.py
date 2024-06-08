@@ -2,14 +2,14 @@ import os
 import cv2
 
 # Define the directory where the images will be saved
-DATA_DIR = 'D:/sign-language-detector-python-master/Dataaaaa'
+DATA_DIR = 'D:/Sign Language Convertor/Data'
 
 # Create the directory if it doesn't exist
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
 number_of_classes = 37 #0-9,A-Z,Next
-dataset_size = 200
+dataset_size = 100
 
 cap = cv2.VideoCapture(0)
 

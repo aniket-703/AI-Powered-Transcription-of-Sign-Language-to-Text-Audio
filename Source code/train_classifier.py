@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 
 # Loading the preprocessed data from a pickle file
-data_dict = pickle.load(open('D:/sign-language-detector-python-master/Model/data10.pickle', 'rb'))
+data_dict = pickle.load(open('D:/Sign Language Convertor/Model/data10.pickle', 'rb'))
 
 # Finding the maximum length of sequences in the data
 max_length = max(len(seq) for seq in data_dict['data'])
@@ -42,6 +42,6 @@ score = accuracy_score(y_predict, y_test)
 print('{}% of samples were classified correctly!'.format(score * 100))
 
 # Saving the model
-with open('D:/sign-language-detector-python-master/Model/model10.p', 'wb') as f:
+with open('D:/Sign Language Convertor/Model/model10.p', 'wb') as f:
     pickle.dump({'model': model}, f)
 f.close()

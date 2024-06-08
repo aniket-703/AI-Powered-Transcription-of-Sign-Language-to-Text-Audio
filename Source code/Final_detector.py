@@ -12,7 +12,7 @@ import os
 
 
 # Load model
-model_dict = pickle.load(open('D:/sign-language-detector-python-master/Model/model_Final.p', 'rb'))
+model_dict = pickle.load(open('D:/Sign Language Convertor/Model/model_Final.p', 'rb'))
 model = model_dict['model']
 
 # Dictionary mapping numerical labels to characters
@@ -25,7 +25,7 @@ labels_dict = {
 
 # Define custom word list with names
 custom_words = {
-    'ANIKET', 'SHARMA', 'VISHAL', 'DIVYANSH', 'GUPTA', 'MANYA' # Add more custom words here
+    'ANIKET', 'SHARMA', 'VISHAL', 'DIVYANSH', 'GUPTA', 'MANYA', 'AYUSH', 'SONIKA' # Add more custom words here
 }
 
 # Initialize Mediapipe Hands
@@ -39,15 +39,15 @@ hands = mp_hands.Hands(static_image_mode=True, max_num_hands=2, min_detection_co
 engine = pyttsx3.init()
 
 # Set properties (optional)
-engine.setProperty('rate', 120)  # Speed of speech
-engine.setProperty('volume', 1)  # Volume level
+engine.setProperty('rate', 150)  # Speed of speech
+engine.setProperty('volume', 2)  # Volume level
 
 
 class Application:
     def __init__(self, window, window_title):
         self.window = window
         self.window.title(window_title)
-        self.window.iconbitmap('D:/sign-language-detector-python-master/Images/logo.ico')
+        self.window.iconbitmap('D:/Sign Language Convertor/Images/logo.ico')
         self.vid = cv2.VideoCapture(0)
 
         # Define the canvas for camera feed
@@ -55,7 +55,7 @@ class Application:
         self.canvas.place(x=10, y=20)  # Position the canvas on the left side
         
         # Load and resize the image
-        image_dir = 'D:/sign-language-detector-python-master/Images'  # Change this to your image directory
+        image_dir = 'D:/Sign Language Convertor/Images'  # Change this to your image directory
         img_path = os.path.join(image_dir, 'symbol.png') 
         img = Image.open(img_path)
         img = img.resize((500, 482))
@@ -123,7 +123,7 @@ class Application:
         self.predicted_sentence_label.config(text=f"Sentence: {predicted_sentence}")
 
     def write_output_to_file(self, output_text):
-        output_file = 'D:/sign-language-detector-python-master/Output/output.txt'
+        output_file = 'D:/Sign Language Convertor/Output/output.txt'
         with open(output_file, "w") as f:
             f.write(output_text.strip() + "\n")
 
@@ -136,7 +136,7 @@ class Application:
 
     def audio_output(self):
         self.prediction_active = False
-        output_file = 'D:/sign-language-detector-python-master/Output/output.txt'
+        output_file = 'D:/Sign Language Convertor/Output/output.txt'
         self.write_output_to_file(self.sentence)
 
         def play_audio():

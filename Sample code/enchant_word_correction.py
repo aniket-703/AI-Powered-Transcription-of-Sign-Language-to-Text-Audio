@@ -32,7 +32,7 @@ def correct_sentence(user_input):
     print("Corrected sentence:", corrected_sentence)
 
     # Write the corrected sentence to a file
-    with open("D:/sign-language-detector-python-master/Output/corrected_sentence.txt", "w") as file:
+    with open("D:/Sign Language Convertor/Output/corrected_sentence.txt", "w") as file:
         file.write(corrected_sentence)
 
 if __name__ == "__main__":
