@@ -8,7 +8,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 -->
 <div align="center">
 
-  <img src="images/logo.ico" alt="logo" width="200" height="auto" />
+  <img src="images/logo.ico" alt="logo" width="100" height="auto" />
   <h1>Sign Language Conversion</h1>
   
   <p>
