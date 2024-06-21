@@ -9,10 +9,10 @@ Maybe you can mention me or this repo in the acknowledgements too
 <div align="center">
 
   <img src="assets/logo.png" alt="logo" width="200" height="auto" />
-  <h1>Awesome Readme Template</h1>
+  <h1>Sign Language Conversion</h1>
   
   <p>
-    An awesome README template for your projects! 
+    A convertor which helps an individual to communicate with dumb and deaf.
   </p>
   
   
