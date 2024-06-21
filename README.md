@@ -18,34 +18,34 @@ Maybe you can mention me or this repo in the acknowledgements too
   
 <!-- Badges -->
 <p>
-  <a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+  <a href="https://github.com/aniket-703/Sign-language-conversion/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/aniket-703/Sign-language-conversion" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/github/last-commit/aniket-703/Sign-language-conversion" alt="last update" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/network/members">
-    <img src="https://img.shields.io/github/forks/Louis3797/awesome-readme-template" alt="forks" />
+  <a href="https://github.com/aniket-703/Sign-language-conversion/network/members">
+    <img src="https://img.shields.io/github/forks/aniket-703/Sign-language-conversion" alt="forks" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/stargazers">
-    <img src="https://img.shields.io/github/stars/Louis3797/awesome-readme-template" alt="stars" />
+  <a href="https://github.com/aniket-703/Sign-language-conversion/stargazers">
+    <img src="https://img.shields.io/github/stars/aniket-703/Sign-language-conversion" alt="stars" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/issues/">
-    <img src="https://img.shields.io/github/issues/Louis3797/awesome-readme-template" alt="open issues" />
+  <a href="https://github.com/aniket-703/Sign-language-conversion/issues/">
+    <img src="https://img.shields.io/github/issues/aniket-703/Sign-language-conversion" alt="open issues" />
   </a>
-  <a href="https://github.com/Louis3797/awesome-readme-template/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+  <a href="https://github.com/aniket-703/Sign-language-conversion/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/aniket-703/Sign-language-conversion.svg" alt="license" />
   </a>
 </p>
    
 <h4>
-    <a href="https://github.com/Louis3797/awesome-readme-template/">View Demo</a>
+    <a href="https://github.com/aniket-703/Sign-language-conversion/">View Demo</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template">Documentation</a>
+    <a href="https://github.com/aniket-703/Sign-language-conversion">Documentation</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Report Bug</a>
+    <a href="https://github.com/aniket-703/Sign-language-conversion/issues/">Report Bug</a>
   <span> · </span>
-    <a href="https://github.com/Louis3797/awesome-readme-template/issues/">Request Feature</a>
+    <a href="https://github.com/aniket-703/Sign-language-conversion/issues/">Request Feature</a>
   </h4>
 </div>
 
